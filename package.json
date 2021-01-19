@@ -1,0 +1,21 @@
+{
+  "name": "latestportfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://github.com/INOCcent-afk/inocportfolio",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url ./",
+    "deploy": "rm -rf dist/ && npm run build && gh-pages -d dist"
+  },
+  "author": "Dave Inoc",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.32.4"
+  },
+  "dependencies": {
+    "gsap": "^3.6.0"
+  }
+}
