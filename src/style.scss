@@ -177,7 +177,6 @@ address {
   }
   .project-section {
     padding: 0 5%;
-    min-height: 100vh;
 
     &-header {
       display: flex;
@@ -525,7 +524,7 @@ address {
       min-height: 500px;
 
       &-header {
-        justify-content: center;
+        justify-content: space-between;
         gap: 600px;
         &-title {
           p {
